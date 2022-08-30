@@ -3,6 +3,8 @@
 var TogglClient = require('./');
 var toggl = new TogglClient({apiToken: '94a35a309b535ecef5e1c246163daa97'});
 
+console.log(toggl)
+
 toggl.startTimeEntry({
   description: 'Some cool work',
   billable:    true
